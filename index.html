@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+    <script src="./common.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1781778948-move2bet-casino-latestru-casino-logo-1-2.webp" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Paf Casino Sverige: Licensierat kasino med bonusar och coola spel</title>
+    <meta name="description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <link rel="canonical" href="https://#">
+    <meta property="og:title" content="Paf Casino Sverige: Licensierat kasino med bonusar och coola spel">
+    <meta property="og:description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <meta property="og:url" content="https://#">
+    <meta property="og:site_name" content="Paf Casino Sverige: Licensierat kasino med bonusar och coola spel">
+    <meta property="og:locale" content="de-DE">
+    <meta property="og:image" content="_assets/images/1781778900-move.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pafcasino">
+    <meta name="twitter:title" content="Paf Casino Sverige: Licensierat kasino med bonusar och coola spel">
+    <meta name="twitter:description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <meta name="twitter:image" content="_assets/images/1781778900-move.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1781778906-1774265768990-0.webp" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-DE">
+    <link rel="apple-touch-icon" href="_assets/images/1781778872-1774265768990-0.webp" sizes="96x96">
+    <link rel="icon" href="_assets/images/1781778872-1774265768990-0.webp" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1781778997-move.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#29163E"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#51D8B4"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#1e122b"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#29163E"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#51D8B4"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+
+    <header class="header" id="top">
+        <div class="headerBlock">
+
+            <!-- Logo -->
+            <div class="headerLogoContainer">
+                <a href="https://#" aria-label="Main page">
+                    <img
+                            class="header__logo logo"
+                            src="_assets/images/1781778948-move2bet-casino-latestru-casino-logo-1-2.webp"
+                            alt="Move2bet Logo"
+                    />
+                </a>
+            </div>
+
+            <div class="navBlockMain">
+
+            <!-- Main Navigation -->
+            <nav>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                </button>
+
+                <ul class="nav__list nav__list--header">
+
+                    <li><a href="index">index</a></li>
+                    <li><a href="app">App</a></li>
+                    <li><a href="bonuses">Bonuses</a></li>
+                    <li><a href="terms">Terms</a></li>
+                    <li><a href="privacy">Privacy</a></li>
+                    <li><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+<!--                    <div class="nav__item">-->
+<!--                        <a-->
+<!--                                class="nav__link"-->
+<!--                                target="_blank"-->
+<!--                                href="casino.html?id=example-offer-id"-->
+<!--                                aria-label=""-->
+<!--                                id="navSignUp"-->
+<!--                        >-->
+<!--                            -->
+<!--                        </a>-->
+<!--                    </div>-->
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Jetzt spielen"
+                                id="navPlayNow"
+                        >
+                            Jetzt spielen
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">H1 title about casino</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casino <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup">Im Move2Bet Casino verbinden wir Casino, Sportwetten und eine tokenbasierte Zahlungslogik in einer Plattform.</li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Krypto-Einzahlungen und Auszahlungen im selben Token</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Slots, Live Casino und Crash-Games zusammen</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Sportwetten und eSports in einem Konto</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Schnelle Krypto-Transaktionen mit nahtloser interner Umrechnung</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">LiveChat begleitet Fragen zum Konto direkt</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Spielauswahl mit bekannten internationalen Game-Providern online</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Token-Modell für aktive digitale Communities</p>
+                                </li>
+                                <li class="providersGroup">Unser Fokus liegt auf klarer Kontoführung, moderner Krypto-Nutzung und einem Spielbereich, der klassische Casino-Formate mit Live-Erlebnis und schnellen Games kombiniert. So entsteht ein flexibler Rahmen für Nutzer, die digitale Assets direkt in ihr Spielerlebnis einbinden möchten.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Move2Bet App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1781780514-move2.webp" title="Move2bet Mobile"
+                                alt="Move2Bet App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Move2Bet App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Move2Bet App" title="Move2Bet App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über das Casino Move2Bet</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Im Move2Bet Casino legen wir Wert auf nachvollziehbare Bonusregeln und eine klare Auszahlungsstruktur. Unsere Plattform verbindet Krypto-Zahlungen, Casino-Spiele und Sportwetten in einem Konto, ohne den Nutzer durch unnötige Zwischenschritte zu führen.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">100% Startpaket verfügbar.</li>
+                                        <li class="historyItem">35x Bonus-Wagering transparent.</li>
+                                        <li class="historyItem">Bis €50.000 Monatsauszahlung.</li>
+                                    </ul>
+                                    <p class="historyDescription">Move2Bet Casino ist unser digitales Umfeld für Krypto-Gaming, Sportwetten und tokenbasierte Kontonutzung. Wir verbinden Casino, Live Casino, Crash-Games, Slots und Sportwetten in einer gemeinsamen Plattformstruktur. Der Kern unseres Ansatzes ist das Prinzip token in, token out, bei dem Einzahlungen und Auszahlungen möglichst nah an der genutzten digitalen Währung bleiben.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1781780577-mac-move.webp" alt="Move2Bet" title="Move2bet Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Dadurch entsteht ein Kontoerlebnis, das besonders für Nutzer mit Krypto-Fokus nachvollziehbar bleibt. Im Casino-Bereich stehen Slots, Roulette, Blackjack, Baccarat, Videopoker, Keno, Rubbellose, Jackpot-Spiele und Live-Formate im Mittelpunkt. Live Casino bringt echte Dealer, reale Tischatmosphäre und ein stärkeres Spielgefühl in den digitalen Raum. Crash-Games und schnelle Games ergänzen den klassischen Spielkatalog um ein dynamisches Format. Der Sportwetten-Bereich deckt klassische Matchwetten, Live-Wetten, ausgewählte Begegnungen und eSports ab. Wir verstehen Casino und Sportwetten nicht als getrennte Welten, sondern als kombinierte Nutzererfahrung innerhalb eines Kontos.
+
+Promotions können im Move2Bet Casino je nach Kampagne, Nutzerstatus und Verfügbarkeit unterschiedlich ausgestaltet sein. Dazu gehören Willkommensangebote, Free-Spins-Aktionen, zeitlich begrenzte Kampagnen und persönliche Angebote. Ein häufig genannter Welcome-Bonus liegt bei 100% mit 35xB-Wagering und einem niedrigen Mindesteinzahlungswert, wobei immer die im Konto sichtbaren Bedingungen maßgeblich bleiben. Wir setzen auf klare Regeln, sichtbare Aktionszeiträume und nachvollziehbare Teilnahmebedingungen. Unsere Loyalitätslogik kann sich an Aktivität, Spielverhalten, gewählten Bereichen und verfügbaren Kampagnen orientieren. VIP-Details und persönliche Vorteile werden dabei nicht pauschal kommuniziert, sondern können vom jeweiligen Konto abhängen. Diese Struktur passt zu einer Plattform, die klassische Casino-Unterhaltung mit einer Krypto-orientierten Wallet-Logik kombiniert.
+
+Events, Turniere und Leaderboards können in Move2Bet Casino als Teil des Promotions-Bereichs erscheinen. Wenn ein Leaderboard aktiv ist, zählen üblicherweise Faktoren wie Einsätze, Spins, qualifizierende Spiele, Aktivitätszeit oder besondere Spielereignisse. Nutzer können ihren Rang über die Turnieransicht oder den Promotions-Bereich verfolgen. Preise werden nach Ende der Aktion entsprechend den jeweiligen Regeln freigegeben oder dem Konto gutgeschrieben. Im Sportwetten-Bereich zählt die klare Darstellung von Märkten, Quoten und Live-Änderungen. Für eSports-Nutzer entsteht ein zusätzlicher Bereich, der digitale Wettbewerbe neben klassischen Sportarten sichtbar macht. Unser Spielportfolio wird durch internationale Anbieter geprägt, darunter Studios aus den Bereichen Slots, Live Casino, Table Games und schnelle Games. Move2Bet Casino steht damit für ein kombiniertes Krypto-Casino- und Betting-Erlebnis mit moderner Token-Orientierung.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Einzahlungen, Auszahlungen und Spielersupport im Casino</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Move2Bet Casino: Einzahlungen und Auszahlungen sicher verwalten
+</h3>
+<p>
+Im Move2Bet Casino konzentrieren wir uns auf Krypto-Zahlungen und eine klare Verwaltung digitaler Guthaben. Unser Zahlungsbereich ist auf Bitcoin, Ethe&shy;reum, Lite&shy;coin, Bitcoin Cash, Tether Wallet, Binance Pay, USDC und Tron ausgerichtet. Karten wie Visa und Master&shy;Card können für Einzahlungen verfügbar sein, sind aber nicht in jedem Fall als Auszahlungsweg vorgesehen. Die Geschwindigkeit einer Einzahlung hängt vom Zahlungsweg, der Netz&shy;werk&shy;auslastung und der internen Verbuchung ab. Krypto-Zahlungen können sehr schnell verarbeitet werden, benötigen aber je nach Chain zusätzliche Bestätigungen. Auszahlungen erfolgen nach interner Frei&shy;gabe und können danach von der jeweiligen Blockchain abhängen. Vor einer Auszahlung kann eine Konto&shy;prüfung erforderlich sein, besonders bei höheren Beträgen, Bonus&shy;guthaben oder auffälligen Trans&shy;aktionen. Wir achten darauf, dass Nutzer Zahlungsdaten, Wallet-Adresse und Netz&shy;werk vor dem Absenden sorgfältig prüfen können. Fehlerhafte Krypto-Überweisungen können nicht immer rückgängig gemacht werden. Der Mindest&shy;betrag für reguläre Einzahlungen und Auszahlungen liegt bei €10. Bei einzelnen Bonus&shy;aktionen kann ein niedrigerer Mindest&shy;einsatz gelten. Das monatliche Auszahlungslimit wird mit bis zu €50.000 angegeben. Tages&shy;limits können je nach Konto, Methode, Währung und Prüfung variieren. Entscheidend sind immer die im Konto sichtbaren Konditionen.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #51D8B4;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Method</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Deposit speed</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Payout after approval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bitcoin</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Meist schnell, abhängig vom Netz</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Ethe&shy;reum</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Abhängig von Gas und Netz</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Lite&shy;coin</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Nach Frei&shy;gabe meist schnell</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bitcoin Cash</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Nach Bestä&shy;tigungen schnell</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Tether Wallet</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Abhängig vom Token-Netz</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Binance Pay</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">In der Regel schnell</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Nach Frei&shy;gabe meist schnell</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>USDC</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Abhängig vom gewählten Netz</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Tron</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Sofort bis wenige Minuten</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Nach Bestä&shy;tigungen schnell</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Visa</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">In der Regel schnell</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Nicht primärer Auszah&shy;lungsweg</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Master&shy;Card</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">In der Regel schnell</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Nicht primärer Auszah&shy;lungsweg</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Limits im Move2Bet Casino
+</h4>
+<ul>
+            <li>• Mindest&shy;auszahlung: ab €10.</li>
+            <li>• Reguläre Mindest&shy;einzahlung: ab €10.</li>
+            <li>• Bonus&shy;aktionen können eigene Mindest&shy;beträge enthalten.</li>
+            <li>• Tages&shy;limit: abhängig von Konto, Methode, Währung und Prüfung.</li>
+            <li>• Monats&shy;limit: bis zu €50.000.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Move2Bet Casino: Kundenservice, Kontakt und Unterstützung
+</h3>
+<p>
+Im Move2Bet Casino verstehen wir Support als festen Teil des Konto&shy;erlebnisses. Der schnellste Kontaktweg ist LiveChat, besonders bei Fragen zu Login, Zahlungen, Bonus&shy;status, Spielen und Konto&shy;navigation. Für umfang&shy;reichere Anliegen steht der E-Mail-Kanal support@move2bet.com zur Verfügung. E-Mail eignet sich besonders, wenn Zahlungs&shy;daten, Trans&shy;aktions&shy;nummern oder Dokumente geprüft werden müssen. Telefonischer Kontakt ist nicht als zentraler öffentlicher Support&shy;kanal bestätigt und sollte nur genutzt werden, wenn er im Konto oder Kontakt&shy;bereich sichtbar ist. Wir strukturieren den Service so, dass kurze Anliegen direkt im Chat beginnen können. Komplexe Fälle werden besser schriftlich bearbeitet, weil dort der gesamte Verlauf nachvollziehbar bleibt. Die Antwort&shy;zeit hängt vom Thema, der Auslastung und der benötigten Prüfung ab. Zahlungs&shy;fragen können länger dauern, wenn Blockchain-Bestä&shy;tigungen, Wallet-Daten oder Sicherheits&shy;prüfungen eine Rolle spielen. Bei Spiel&shy;fragen helfen Spielname, Zeitpunkt, Einsatz und Runden&shy;details. Bei Bonus&shy;fragen sind Name der Aktion, Status des Wagerings und Konto&shy;hinweise wichtig. Unsere Kommunikation ist auf klare Schritte und verständliche Erklärungen ausgerichtet. Mehrsprachige Nutzung kann je nach aktueller Plattform&shy;version und Support&shy;verfügbarkeit variieren. Der Service eignet sich für Nutzer, die Krypto-Zahlungen, Casino-Spiele und Sportwetten in einem Konto verwalten. Je genauer eine Anfrage beschrieben wird, desto präziser kann die Antwort ausfallen.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Kontaktkanäle
+</h4>
+<ul>
+            <li>• LiveChat: schnelle Hilfe zu Konto, Spielen, Zahlungen und Boni.</li>
+            <li>• E-Mail: ausführliche Anfragen, Dokumente und Zahlungs&shy;prüfung.</li>
+            <li>• Telefon: nur relevant, wenn dieser Kanal im Konto sichtbar ist.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Antwortzeiten
+</h4>
+<ul>
+            <li>• Chat: geeignet für kurze Anliegen und erste Klärung.</li>
+            <li>• E-Mail: sinnvoll für detaillierte oder prüfungs&shy;pflichtige Fälle.</li>
+            <li>• Krypto-Zahlungen: abhängig von Netz&shy;werk, Wallet und Frei&shy;gabe.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Servicequalität
+</h4>
+<ul>
+            <li>• Unterstützung bei Konto, Bonus, Spiel&shy;verlauf und Trans&shy;aktionen.</li>
+            <li>• Präzise Angaben verbessern die Bearbeitung.</li>
+            <li>• Sicherheits&shy;relevante Fälle können zusätzliche Prüfung benötigen.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Sprachen
+</h4>
+<ul>
+            <li>• Die Plattform richtet sich an eine internationale Nutzer&shy;gruppe.</li>
+            <li>• Sprach&shy;optionen können je nach Version und Team variieren.</li>
+            <li>• Klare Formulierungen erleichtern die Bearbeitung komplexer Anliegen.</li>
+        </ul><br>
+</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Spielauswahl, Wettregeln und Casino-Turniere</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Move2Bet Casino: Spiele, Live Casino und Sportwetten
+</h3>
+<p>
+Im Move2Bet Casino kombinieren wir klassische Casino-Spiele, Live Casino, schnelle Games und Sportwetten in einer gemeinsamen Konto&shy;struktur. Der Casino-Bereich umfasst Slots, Tisch&shy;spiele, Karten&shy;spiele, Jackpot-Games und kurze Spiel&shy;formate. Slots bilden einen zentralen Teil des Katalogs, weil sie viele Themen, Bonus&shy;features und Volatilitäts&shy;stufen abdecken. Für klassische Casino-Nutzer stehen Roulette, Blackjack, Baccarat, Video&shy;poker und Keno im Vordergrund. Live Casino ergänzt diese Auswahl durch echte Dealer, Echtzeit&shy;streaming und sichtbare Tisch&shy;abläufe. In diesem Bereich können Live Roulette, Live Blackjack, Live Baccarat, Live Poker, Live Dice Games, Live Bingo und weitere Live-Formate verfügbar sein. Crash-Games richten sich an Nutzer, die kurze Runden und eine direkte Entscheidungs&shy;mechanik bevorzugen. Jackpot-Spiele bringen zusätzliche Preis&shy;mechaniken ein, deren Regeln vom jeweiligen Anbieter abhängen. Rubbellose und Keno eignen sich für kompakte Sessions. Video&shy;poker verbindet Karten&shy;logik mit festen Auszahlungs&shy;tabellen. Im Sportwetten-Bereich arbeiten wir mit Matchwetten, Live-Märkten, ausgewählten Begegnungen und eSports. Prematch-Wetten ermöglichen die Auswahl vor Spiel&shy;beginn. Live-Wetten reagieren auf den Verlauf des Events und verändern sich dynamisch. eSports ergänzt den Sportbereich um digitale Wettbewerbe. Unser Anbieter&shy;mix umfasst Studios aus den Bereichen Slots, Live Casino, Table Games und schnelle Games. Die konkrete Verfügbarkeit hängt vom aktuellen Katalog, Konto&shy;status und Anbieter ab.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Casino-Spiele
+</h4>
+<ul>
+            <li>• Slots: Themen, Bonus&shy;runden, Free-Spins und verschiedene Volatilität.</li>
+            <li>• Roulette: digitale und Live-Tische mit variierenden Limits.</li>
+            <li>• Blackjack: Karten&shy;spiel mit klarer Basis&shy;strategie.</li>
+            <li>• Baccarat: schneller Ablauf und einfache Wett&shy;optionen.</li>
+            <li>• Video&shy;poker: Karten&shy;mechanik mit festen Auszahlungs&shy;tabellen.</li>
+            <li>• Keno: Zahlen&shy;spiel für kurze Sessions.</li>
+            <li>• Rubbellose: direkte Ergebnisse ohne lange Runden.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Live Casino
+</h4>
+<ul>
+            <li>• Live Roulette: Echtzeit&shy;spiel mit Dealer und Tisch&shy;kamera.</li>
+            <li>• Live Blackjack: Karten&shy;tische mit realem Ablauf.</li>
+            <li>• Live Baccarat: schnelle Runden und klassische Wett&shy;optionen.</li>
+            <li>• Live Poker: Karten&shy;dynamik mit Live-Atmosphäre.</li>
+            <li>• Live Dice Games: Würfel&shy;formate mit sichtbarem Ergebnis.</li>
+            <li>• Live Shows: unterhaltungs&shy;orientierte Formate mit Bonus&shy;elementen.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Schnelle Spiele
+</h4>
+<ul>
+            <li>• Crash-Games: kurze Runden mit steigendem Multi&shy;plikator.</li>
+            <li>• Dice Games: einfache Mechanik und direkte Auswertung.</li>
+            <li>• Jackpot-Games: besondere Preis&shy;mechaniken nach Anbieter&shy;regeln.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Sportwetten und eSports
+</h4>
+<ul>
+            <li>• Prematch: Wetten vor dem Start eines Events.</li>
+            <li>• Live-Wetten: Märkte während des laufenden Spiels.</li>
+            <li>• Featured Matches: ausgewählte Begegnungen im Sport&shy;menü.</li>
+            <li>• eSports: digitale Wettbewerbe und Turnier&shy;märkte.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Move2Bet Casino: Mindest- und Höchsteinsätze nach Spieltyp
+</h3>
+<p>
+Im Move2Bet Casino hängen Einsatz&shy;limits von Spieltyp, Anbieter, Token, Konto&shy;status und Markt ab. Slots beginnen häufig mit niedrigen Einsätzen, während Live Casino und Tisch&shy;spiele breitere Einsatz&shy;bereiche haben können. Bei Sportwetten richten sich Limits nach Event, Markt, Quote und interner Risiko&shy;prüfung. Die folgenden Werte sind praktische Richtwerte; die verbindlichen Limits stehen immer im jeweiligen Spiel oder Wett&shy;schein.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #51D8B4;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Game Type</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Min Bet</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Max Bet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Slots</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €100</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Crash-Games</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €1.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Roulette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,50</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €5.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Roulette</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,50</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €10.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Black&shy;jack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €10.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Black&shy;jack</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €20.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Baccarat</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €10.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Live Baccarat</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €1</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €20.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Video&shy;poker</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €100</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Keno</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €500</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Scratch Cards</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €100</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Sport&shy;wetten</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €10.000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>eSports Betting</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,10</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">bis €5.000</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Move2Bet Casino: Turniere, Leaderboards und Promotion-Events
+</h3>
+<p>
+Im Move2Bet Casino können Turniere und Leaderboards Teil des Promotions&shy;bereichs sein, wenn entsprechende Aktionen für ein Konto aktiv sind. Wir setzen dabei auf klare Regeln: Laufzeit, qualifizierende Spiele, Punkte&shy;system und Preis&shy;verteilung müssen vor der Teilnahme sichtbar sein. Punkte können je nach Aktion durch Einsätze, Spins, Spiel&shy;aktivität, Umsatz oder besondere Ereignisse entstehen. Bei Slot-Turnieren zählen häufig Spins, Einsatz&shy;höhe, Runden&shy;ergebnis oder Gesamt&shy;umsatz. Bei Live-Casino-Leaderboards können Einsätze an bestimmten Tischen oder Aktivitäten in einem festgelegten Zeitraum zählen. Sportwetten-Aktionen können sich auf bestimmte Matches, Quoten, Wettscheine oder Gesamt&shy;aktivität beziehen. Der aktuelle Rang wird über die Turnier&shy;seite, den Promotions&shy;bereich oder ein Leaderboard-Widget angezeigt, sofern es verfügbar ist. Nach Ablauf der Aktion wird die Tabelle geprüft und finalisiert. Preise können als Guthaben, Bonus&shy;mittel, Free Spins, Free Bets oder andere Promotion&shy;werte gutgeschrieben werden. Falls ein Preis aktiv abgeholt werden muss, steht dieser Hinweis in den jeweiligen Teilnahme&shy;bedingungen. Vor der Teilnahme sollten Mindest&shy;einsatz, qualifizierende Spiele, Token-Regeln, Laufzeit und Wagering geprüft werden. So bleibt klar, welche Aktionen tatsächlich für den Rang zählen.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Teilnahme
+</h4>
+<ul>
+            <li>• Promotions&shy;bereich oder Turnier&shy;seite öffnen.</li>
+            <li>• Laufzeit, Spiele und Teilnahme&shy;regeln prüfen.</li>
+            <li>• Nur qualifizierende Spiele oder Märkte nutzen.</li>
+            <li>• Mindest&shy;einsatz und Token-Regeln beachten.</li>
+            <li>• Fortschritt bis zum Aktions&shy;ende verfolgen.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Punktewertung
+</h4>
+<ul>
+            <li>• Spins in ausgewählten Slots.</li>
+            <li>• Qualifizierende Einsatz&shy;summen.</li>
+            <li>• Aktivität in Live Casino oder Crash-Games.</li>
+            <li>• Wetten auf bestimmte Sport&shy;ereignisse.</li>
+            <li>• Erfüllung besonderer Kampagnen&shy;ziele.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Leaderboard-Rang
+</h4>
+<ul>
+            <li>• Anzahl und Größe der Einsätze.</li>
+            <li>• Zahl qualifizierender Runden.</li>
+            <li>• Aktive Zeit im Event.</li>
+            <li>• Gesamt&shy;umsatz nach Aktions&shy;regeln.</li>
+            <li>• Vom System gezählte Ergebnisse.</li>
+        </ul><br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Preise erhalten
+</h4>
+<ul>
+            <li>• Finale Tabelle nach Aktions&shy;ende abwarten.</li>
+            <li>• Guthaben, Bonus&shy;bereich und Benach&shy;richtigungen prüfen.</li>
+            <li>• Mögliche Wagering-Regeln beachten.</li>
+            <li>• Support kontaktieren, wenn ein Preis nach Prüfung fehlt.</li>
+        </ul><br>
+</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="was_unterscheidet_move2bet_casino_von_einem_klassischen_onlinecasino"/><label
+                            class="faqLabel" for="was_unterscheidet_move2bet_casino_von_einem_klassischen_onlinecasino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Was unterscheidet Move2Bet Casino von einem klassischen Online-Casino? </span></label>
+                        <div class="faqContent">
+                            <p>Wir verbinden Casino, Sportwetten und eine tokenbasierte Kontologik, sodass Slots, Live Casino, Crash-Games, eSports und Krypto-Zahlungen in einem Umfeld zusammenlaufen.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kann_move2bet_casino_nur_fr_sportwetten_genutzt_werden"/><label
+                            class="faqLabel" for="kann_move2bet_casino_nur_fr_sportwetten_genutzt_werden">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kann Move2Bet Casino nur für Sportwetten genutzt werden? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, der Sportwetten-Bereich kann eigenständig genutzt werden, wenn der Fokus auf Prematch-Wetten, Live-Wetten oder eSports liegt.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="was_bedeutet_token_in_token_out"/><label
+                            class="faqLabel" for="was_bedeutet_token_in_token_out">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Was bedeutet token in, token out? </span></label>
+                        <div class="faqContent">
+                            <p>Damit ist eine Zahlungslogik gemeint, bei der Einzahlungen und Auszahlungen möglichst eng mit demselben Token oder derselben Krypto-Struktur verbunden bleiben.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="warum_kann_sich_ein_kryptobetrag_verndern"/><label
+                            class="faqLabel" for="warum_kann_sich_ein_kryptobetrag_verndern">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Warum kann sich ein Krypto-Betrag verändern? </span></label>
+                        <div class="faqContent">
+                            <p>Token-Kurse, Netzgebühren, Chain-Auswahl und Zahlungsregeln können beeinflussen, welcher Betrag nach Verarbeitung sichtbar wird.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gibt_es_mglichkeiten_zur_spielkontrolle"/><label
+                            class="faqLabel" for="gibt_es_mglichkeiten_zur_spielkontrolle">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gibt es Möglichkeiten zur Spielkontrolle? </span></label>
+                        <div class="faqContent">
+                            <p>Je nach Konto können Limits, Kontrollfunktionen oder Support-Anfragen genutzt werden, um das Spielverhalten bewusster zu verwalten.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://#" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1781779027-move2bet-casino-latestru-casino-logo-1-2.webp" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Move2bet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Move2bet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Move2bet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Move2bet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Move2bet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Move2bet" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Move2bet" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Move2bet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Move2bet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Move2bet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Move2bet" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Move2bet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Move2bet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Move2bet" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Move2bet" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="app">App</a></li>
+                    <li class="footer__navItem"><a href="bonuses">Bonuses</a></li>
+                    <li class="footer__navItem"><a href="terms">Terms</a></li>
+                    <li class="footer__navItem"><a href="privacy">Privacy</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Move2bet </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "Jetzt spielen";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Move2bet";
+</script>
+
+</body>
+</html>

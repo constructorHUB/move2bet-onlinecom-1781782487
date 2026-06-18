@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://#/</loc>
+    </url>
+    <url>
+        <loc>https://#/app</loc>
+    </url>
+    <url>
+        <loc>https://#/bonuses</loc>
+    </url>
+    <url>
+        <loc>https://#/terms</loc>
+    </url>
+    <url>
+        <loc>https://#/privacy</loc>
+    </url>
+    <url>
+        <loc>https://#/faq</loc>
+    </url>
+
+</urlset>
+
