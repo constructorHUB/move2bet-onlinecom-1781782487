@@ -22,7 +22,7 @@
             "bonus-border-head": "#efefdc",
             "bonus-border": "#000033",
             "providers-back": "#203249",
-            "faq-label": "#deeadf",
+            "faq-label": "#203249",
             "bg-footer": "#203249",
             "copyright": "#e7e7d5",
             "starColor": "#1e122b",
@@ -95,13 +95,13 @@
             "name": "index",
             "sections": {
                 "seo": {
-                    "title": "Paf Casino Sverige: Licensierat kasino med bonusar och coola spel",
-                    "description": "Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!",
-                    "canonical": "#",
-                    "twitterSite": "@pafcasino"
+                    "title": "Move2bet Casino — Spiele, Sportwetten und Funktionen",
+                    "description": "Erfahren Sie mehr über das Move2bet Casino: Casino-Spiele, Sportwetten, Krypto-Zahlungen, Boni und wichtige Funktionen für Spieler.",
+                    "canonical": "move2bet-online.com",
+                    "twitterSite": "move2bet-online.com"
                 },
                 "hero": {
-                    "title": "H1 title about casino"
+                    "title": "Move2bet Casino: Spiele, Wetten und Plattformfunktionen"
                 },
                 "advantages": {
                     "title": "Vorteile",

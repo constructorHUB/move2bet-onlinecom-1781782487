@@ -2,4 +2,4 @@ User-agent: *
 Allow: / 
 Disallow: /casino/
 Disallow: /*/casino/
-Sitemap: https://#/sitemap.xml
+Sitemap: https://move2bet-online.com/sitemap.xml
