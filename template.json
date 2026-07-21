@@ -554,7 +554,7 @@
           "name": "Текст Games Hover",
           "description": "Для блока Games Hover",
           "type": "color",
-          "default": "#deeadf"
+          "default": "#25ac61"
         },
         {
           "id": "main-bg",
@@ -836,7 +836,7 @@
           "name": "Claim Bonus Text",
           "type": "text",
           "description": "Text for claim bonus button",
-          "default": "Claim Bonus"
+          "default": "Bonus Sichern"
         },
         {
           "id": "image",
@@ -901,7 +901,7 @@
           "name": "Play Now Text",
           "type": "text",
           "description": "Text for the play now button",
-          "default": "Play Now"
+          "default": "Jetzt spielen"
         }
       ]
     },
@@ -914,7 +914,7 @@
           "name": "Top Casinos Button Text",
           "type": "text",
           "description": "Text for top casinos buttons",
-          "default": "Claim Bonus"
+          "default": "Bonus Sichern"
         },
         {
           "id": "title",
@@ -1132,7 +1132,7 @@
             },
             {
               "id": "mobileIosImageTitle",
-              "name": "Mobile Ios Image Title",
+              "name": "Mobile iOS Image Title",
               "type": "text",
               "default": "Mobile App"
             }
@@ -1147,7 +1147,7 @@
               "name": "Play Now Text",
               "type": "text",
               "description": "Text for play now button",
-              "default": "Play now"
+              "default": "Jetzt spielen"
             },
             {
               "id": "title",
@@ -1507,9 +1507,9 @@
       ]
     },
     {
-      "id": "bonuses",
-      "path": "/bonuses",
-      "name": "Bonuses",
+      "id": "boni",
+      "path": "/boni",
+      "name": "Boni",
       "sections": [
         {
           "id": "seo",
@@ -1639,9 +1639,9 @@
       ]
     },
     {
-      "id": "terms",
-      "path": "/terms",
-      "name": "Terms",
+      "id": "geschaeftsbedingungen",
+      "path": "/geschaeftsbedingungen",
+      "name": "Geschäftsbedingungen",
       "sections": [
         {
           "id": "seo",
@@ -1771,9 +1771,9 @@
       ]
     },
     {
-      "id": "privacy",
-      "path": "/privacy",
-      "name": "Privacy",
+      "id": "datenschutzerklaerung",
+      "path": "/datenschutzerklaerung",
+      "name": "Datenschutzerklärung",
       "sections": [
         {
           "id": "seo",

@@ -2,12 +2,12 @@
 
 
 
-Built on: 2026-06-29 14:24:25
+Built on: 2026-07-21 13:45:32
 
 Available pages:
 - index
 - app
-- bonuses
-- terms
-- privacy
+- boni
+- geschaeftsbedingungen
+- datenschutzerklaerung
 - faq
